@@ -34,6 +34,19 @@ A learning agent in reinforcement learning is supposed to sense the state of the
 
 ## Citation
 
+```
+@article{XU2021,
+title = {ARAIL: Learning to Rank from Incomplete Demonstrations},
+journal = {Information Sciences},
+year = {2021},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2021.02.001},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025521001213},
+author = {Dayong Xu and Fei Zhu and Quan Liu and Peiyao Zhao},
+keywords = {Imitation learning, Learning to rank, Incomplete demonstrations, Auxiliary rank information}
+}
+```
+
 ## Reference
 
 - [@openai/baselines](https://github.com/openai/baselines)
