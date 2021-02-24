@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# Title
 
-You can use the [editor on GitHub](https://github.com/Tree12323/ARAIL-Learning-to-Rank-from-Incomplete-Demonstrations/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+**ARAIL**: Learning to Rank from Incomplete Demonstrations
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Abstract
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tree12323/ARAIL-Learning-to-Rank-from-Incomplete-Demonstrations/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Generative Adversarial Imitation Learning (GAIL) has been successfully applied to imitation learning in control tasks. However, most GAIL-like approaches require complete and high-quality demonstrations that are scarcely available in practice, which leads to unsatisfactory performances. Researches have proposed algorithms for incomplete demonstrations, which, however, are supposed to be effective only when exceptionally high-quality demonstrations are provided. To solve the problem, the Action-Rank Adversarial Imitation Learning (ARAIL) algorithm is introduced to target the issue of incomplete demonstrations. By reconstructing the standard GAIL framework and introducing the ranker model, ARAIL reshapes the reward function from the discriminator and auxiliary information from the ranker. The primary insight is that the ranker makes a better assessment of missing actions, which in turn helps to learn a better policy. We empirically compare our approach with SOTA algorithms on Atari and Mujoco platforms with imitation learning benchmarks, demonstrating that ARAIL improves both performance and robustness on various levels of incompleteness of actions in demonstrations.
